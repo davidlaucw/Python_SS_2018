@@ -29,9 +29,7 @@ and programs.
   I recommend that you put these command into your `.bash-profile` configuration file
   for the duration of the course.
 
-- It seems that Google-Chrome is the standard browser on new accounts in the
-  AIfA CIP-Pool. We experienced problems with this browser in connection
-  with Jupyter-Notebooks during the first lecture.
+- We experienced problems with Google-Chrome in connection with Jupyter-Notebooks during the first lecture.
 
   If Google-Chrome is the default browser on your account, please change
   it to *Firefox*. This can be done within the
