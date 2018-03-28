@@ -11,13 +11,13 @@ developments will happen in the *Python 3.X* branch and I strongly
 recommend to only use that in the future - especially for new scripts
 and programs.
 
-## Python 3.6 usage at AIfA and the AIfA CIP-Pool
+## Python 3.6 usage at the Physics Cip-Pool
 - *Python 3.6* and all necessary modules for our course are accesible from all
-  AIfA computers **but** you need to
-  explicitely activate them! To do so on an AIfA computer, you need to type
+  Cip-Pool computers **but** you need to
+  explicitely activate them! You need to type
 
   ```bash
-  user$ module load anaconda/36
+  user$ module load anaconda/5.1.0-py36
   ```
 
   and *Python 3.6* is activated in your current shell. Putting the above command
@@ -25,16 +25,8 @@ and programs.
   shell that you are using) activates *Python 3.6* automatically within each
   shell that you open.
 
-- In the AIfA CIP-Pool, you need to launch the two following commands to obtain
-  a working *Python 3.6*-environment:
 
-  ```bash
-  user$ source /usr/share/modules/init/bash  # everybody should use bash
-                                             # in the CIP-Pool
-  user$ module load anaconda/36
-  ```
-
-  I recommend that you put these commands into your `.bashrc` configuration file
+  I recommend that you put these command into your `.bash-profile` configuration file
   for the duration of the course.
 
 - It seems that Google-Chrome is the standard browser on new accounts in the
@@ -44,7 +36,8 @@ and programs.
   If Google-Chrome is the default browser on your account, please change
   it to *Firefox*. This can be done within the
   ```Applications -> Settings -> Settings Manager -> Preferred Applications```
-  menu.
+  menu (this works only in a xfce session!)
+  If you're not sure please start firefox manually in a terminal window with 'firefox' !
 
 ## Python 3.X installation on own computers
 Python consists of a *core language* (see
