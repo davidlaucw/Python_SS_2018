@@ -66,8 +66,7 @@ Updates are managed comfortably with dedicated *package managers*.
   **Important: Register with your student university E-Mail address!**
 
 ## Installation test
-Please run the script ```check_bonn_python.py``` on your computer to
-check whether you have a well-installed setup:
+Please run the script [```check_bonn_python.py```](https://github.com/ocordes/Python_SS_2018/tree/master/check_bonn_python.py) on your computer to check whether you have a well-installed setup:
 
 ```bash
 user$ python3 check_bonn_python.py
